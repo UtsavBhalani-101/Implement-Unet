@@ -1,0 +1,63 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.vscode
+
+# Test, notebook, and tool outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Training outputs and checkpoints
+output/
+outputs/
+checkpoints/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.safetensors
+wandb/
+tensorboard/
+logs/
+
+# Large generated datasets and preprocessing artifacts
+data/
+datasets/
+stage_2_train/
+stage_2_test/
+*.dcm
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.parquet
+chen26a.pdf
+
+# Generated image/cache directories from the official repository
+author_repo/experiments_*/
+author_repo/output/
+author_repo/train_output/
+author_repo/checkpoints/
+author_repo/__pycache__/
+author_repo/**/__pycache__/
+
+# Temporary inspection/download files
+tmp/
+*.download
+*.part
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
